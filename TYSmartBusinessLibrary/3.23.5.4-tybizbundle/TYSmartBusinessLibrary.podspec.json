@@ -36,7 +36,7 @@
         "ios": "9.0"
     },
     "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "x86_64 arm64",
         "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
     },
     "prefix_header_file": "TYSmartBusinessLibrary-3.23.5.4-tybizbundle/PrefixHeader.pch",
@@ -53,7 +53,7 @@
     },
     "summary": "TuyaSmart Business Base library",
     "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "x86_64 arm64",
         "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
     },
     "vendored_libraries": "TYSmartBusinessLibrary-3.23.5.4-tybizbundle/libTYSmartBusinessLibrary.a",
