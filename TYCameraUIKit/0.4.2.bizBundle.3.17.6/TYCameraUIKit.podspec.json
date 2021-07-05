@@ -10,7 +10,7 @@
         "TYSmartBusinessLibrary": [],
         "TYUIKit": [],
         "lottie-ios": [
-            "3.0.3"
+            "~> 3.1.8"
         ]
     },
     "description": "TYCameraUIKit",
